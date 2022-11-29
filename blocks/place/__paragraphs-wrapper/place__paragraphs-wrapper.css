@@ -1,0 +1,24 @@
+.place__paragraphs-wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .place__paragraphs-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraphs-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+

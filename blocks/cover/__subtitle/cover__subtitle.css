@@ -11,13 +11,6 @@
   text-decoration: none;
 }
 
-
-.cover__subtitle:hover ~ .cover__overlay {
-  opacity: 0.8;
-  transition: opacity 1s;
-}
-
-
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     width: 288px;
